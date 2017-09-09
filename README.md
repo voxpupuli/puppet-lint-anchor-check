@@ -35,7 +35,7 @@ anchor { 'foo::begin': }
 
 #### What you should have done
 
-```
+```puppet
 contain 'foo::install'
 contain 'foo::config'
 contain 'foo::service'
