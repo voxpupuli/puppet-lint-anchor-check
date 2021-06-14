@@ -1,11 +1,12 @@
 puppet-lint-anchor-check
 ========================
 
-[![Build Status](https://img.shields.io/travis/voxpupuli/puppet-lint-anchor-check.svg)](https://travis-ci.org/voxpupuli/puppet-lint-anchor-check)
-[![Gem Version](https://img.shields.io/gem/v/puppet-lint-anchor-check.svg)](https://rubygems.org/gems/puppet-lint-anchor-check)
-[![Gem Downloads](https://img.shields.io/gem/dt/puppet-lint-anchor-check.svg)](https://rubygems.org/gems/puppet-lint-anchor-check)
-[![Coverage Status](https://coveralls.io/repos/github/voxpupuli/puppet-lint-anchor-check/badge.svg?branch=master)](https://coveralls.io/github/voxpupuli/puppet-lint-anchor-check?branch=master)
-[![Dependency Status](https://gemnasium.com/badges/github.com/voxpupuli/puppet-lint-anchor-check.svg)](https://gemnasium.com/github.com/voxpupuli/puppet-lint-anchor-check)
+[![License](https://img.shields.io/github/license/voxpupuli/puppet-lint-anchor-check.svg)](https://github.com/voxpupuli/puppet-lint-anchor-check/blob/master/LICENSE)
+[![Test](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/test.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/test.yml)
+[![Release](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/release.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/release.yml)
+[![RubyGem Version](https://img.shields.io/gem/v/puppet-lint-anchor-check.svg)](https://rubygems.org/gems/puppet-lint-anchor-check)
+[![RubyGem Downloads](https://img.shields.io/gem/dt/puppet-lint-anchor-check.svg)](https://rubygems.org/gems/puppet-lint-anchor-check)
+[![Donated by Alexander Fisher](https://img.shields.io/badge/donated%20by-Alexander%20Fisher-fb7047.svg)](#copyright)
 
 A puppet-lint plugin to check that `anchor` resources are unused.
 
@@ -66,3 +67,13 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+## Release information
+
+To make a new release, please do:
+* update the version in the gemspec file
+* Install gems with `bundle install --with release --path .vendor`
+* generate the changelog with `bundle exec rake changelog`
+* Check if the new version matches the closed issues/PRs in the changelog
+* Create a PR with it
+* After it got merged, push a tag. GitHub actions will do the actual release to rubygems and GitHub Packages
