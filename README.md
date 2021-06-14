@@ -5,7 +5,6 @@ puppet-lint-anchor-check
 [![Gem Version](https://img.shields.io/gem/v/puppet-lint-anchor-check.svg)](https://rubygems.org/gems/puppet-lint-anchor-check)
 [![Gem Downloads](https://img.shields.io/gem/dt/puppet-lint-anchor-check.svg)](https://rubygems.org/gems/puppet-lint-anchor-check)
 [![Coverage Status](https://coveralls.io/repos/github/voxpupuli/puppet-lint-anchor-check/badge.svg?branch=master)](https://coveralls.io/github/voxpupuli/puppet-lint-anchor-check?branch=master)
-[![Dependency Status](https://gemnasium.com/badges/github.com/voxpupuli/puppet-lint-anchor-check.svg)](https://gemnasium.com/github.com/voxpupuli/puppet-lint-anchor-check)
 
 A puppet-lint plugin to check that `anchor` resources are unused.
 
