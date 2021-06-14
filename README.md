@@ -3,8 +3,7 @@ puppet-lint-anchor-check
 
 [![License](https://img.shields.io/github/license/voxpupuli/puppet-lint-anchor-check.svg)](https://github.com/voxpupuli/puppet-lint-anchor-check/blob/master/LICENSE)
 [![Test](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/test.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/test.yml)
-[![Release](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/release.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/release.ym
-l)
+[![Release](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/release.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-anchor-check/actions/workflows/release.yml)
 [![RubyGem Version](https://img.shields.io/gem/v/puppet-lint-anchor-check.svg)](https://rubygems.org/gems/puppet-lint-anchor-check)
 [![RubyGem Downloads](https://img.shields.io/gem/dt/puppet-lint-anchor-check.svg)](https://rubygems.org/gems/puppet-lint-anchor-check)
 [![Donated by Alexander Fisher](https://img.shields.io/badge/donated%20by-Alexander%20Fisher-fb7047.svg)](#copyright)
