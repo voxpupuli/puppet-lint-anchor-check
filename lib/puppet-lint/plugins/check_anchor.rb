@@ -10,4 +10,7 @@ PuppetLint.new_check(:anchor_resource) do
       )
     end
   end
+  def uncovered_code_test
+    puts "Just testing codecov"
+  end
 end
