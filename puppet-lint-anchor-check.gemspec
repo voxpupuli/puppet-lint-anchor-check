@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name        = 'puppet-lint-anchor-check'
-  spec.version     = '1.0.1'
+  spec.version     = '1.1.0'
   spec.homepage    = 'https://github.com/voxpupuli/puppet-lint-anchor-check'
   spec.license     = 'Apache-2.0'
   spec.author      = 'Vox Pupuli'
