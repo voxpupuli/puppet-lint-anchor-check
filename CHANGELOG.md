@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/voxpupuli/puppet-lint-anchor-check/tree/1.1.0) (2022-11-29)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-lint-anchor-check/compare/1.0.1...1.1.0)
+
+**Implemented enhancements:**
+
+- puppet-lint: Allow 3.x [\#18](https://github.com/voxpupuli/puppet-lint-anchor-check/pull/18) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [1.0.1](https://github.com/voxpupuli/puppet-lint-anchor-check/tree/1.0.1) (2021-06-19)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-lint-anchor-check/compare/1.0.0...1.0.1)
