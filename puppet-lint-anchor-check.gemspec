@@ -11,16 +11,10 @@ Gem::Specification.new do |spec|
     'lib/**/*',
     'spec/**/*',
   ]
-  spec.test_files  = Dir['spec/**/*']
   spec.summary     = 'puppet-lint check to validate legacy anchor pattern is not used'
   spec.description = <<-EOF
     A check for puppet-lint that validates no anchor resources are used
   EOF
 
-  spec.add_dependency             'puppet-lint', '>= 1.1', '< 4'
-  spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'rspec-its', '~> 1.0'
-  spec.add_development_dependency 'rspec-collection_matchers', '~> 1.0'
-  spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'simplecov'
+  spec.add_dependency 'puppet-lint', '>= 1.1', '< 4'
 end
