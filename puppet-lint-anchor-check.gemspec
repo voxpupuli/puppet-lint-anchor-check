@@ -16,5 +16,5 @@ Gem::Specification.new do |spec|
     A check for puppet-lint that validates no anchor resources are used
   EOF
 
-  spec.add_dependency 'puppet-lint', '>= 1.1', '< 4'
+  spec.add_dependency 'puppet-lint', '>= 3', '< 5'
 end
